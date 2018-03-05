@@ -1,0 +1,6 @@
+<div id="afterpay-what-is-modal" style="display:none;" class="fancybox">
+    <a href="https://www.afterpay.com/terms/" target="_blank" style="border: none">
+        <img class="afterpay-modal-image" src="https://static.secure-afterpay.com.au/banner-large.png" alt="Afterpay" />
+        <img class="afterpay-modal-image-mobile" src="https://static.secure-afterpay.com.au/modal-mobile.png" alt="Afterpay" />
+    </a>
+</div>

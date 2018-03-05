@@ -1,0 +1,19 @@
+/** afterpay-admin.css */
+
+
+/* ------------------------------------------------------------------------------------
+                                    Order Page 
+------------------------------------------------------------------------------------*/    
+.product_action,
+#add_product,
+#add_voucher,
+.current-edit,
+button[name="submitChangeCurrency"],
+#desc-order-partial_refund 
+{
+    display:none !important;
+}
+
+select[name="new_currency"] {
+    opacity: 0.6;
+}

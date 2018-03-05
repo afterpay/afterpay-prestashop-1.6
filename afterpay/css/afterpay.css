@@ -1,0 +1,139 @@
+/** afterpay.css */
+
+/* ------------------------------------------------------------------------------------
+                                    Product Page 
+------------------------------------------------------------------------------------*/                             
+
+.afterpay-modal-image {
+    display: none;
+}
+
+@media only screen and (min-width : 992px) {
+    .afterpay-modal-image {
+        display: block;
+    }
+}
+
+.afterpay-modal-image-mobile {
+    display: block;
+}
+
+@media only screen and (min-width : 992px) {
+    .afterpay-modal-image-mobile {
+        display: none;
+}
+
+/*------------------------------------------------------------------------------------
+                                    Checkout Page 
+------------------------------------------------------------------------------------*/
+#afterpaypayovertime-method {
+    text-align: center;
+}
+
+#afterpaypayovertime-method #afterpaypayovertime {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#afterpaypayovertime-method .payment-method-note {
+    /*font-size: 1.2rem;*/
+    color: #a0a0a0;
+    text-align: center;
+}
+
+#afterpaypayovertime-method .payment-method-note .afterpay_instalments_amount {
+    font-size: 1.75rem;
+}
+
+#afterpaypayovertime-method .payment-method-note h3 {
+    color: #00a4e4;
+    text-align: left;
+}
+
+#afterpaypayovertime-method .payment-method-note ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#afterpaypayovertime-method .payment-method-note ul li {
+    width: 24%;
+    display: inline-block;
+}
+
+#afterpaypayovertime-method .payment-method-note ul.cost li {
+    font-size: 1.1rem;
+    color: #153F72;
+}
+
+#afterpaypayovertime-method .afterpay-checkout-redirect {
+    margin-top: 1rem;
+    text-align: left;
+    background-color: #f6f7f9;
+    display: inline-block;
+    padding: 15px;
+}
+
+#afterpaypayovertime-method .afterpay-checkout-redirect {
+    width: 100%;
+    text-align:center;
+}
+#afterpaypayovertime-method .afterpay-checkout-redirect a {
+    color: blue;
+}
+
+#afterpaypayovertime-method .actions-toolbar {
+    float: right;
+    margin-top: 1.5rem;
+    line-height: 1.1;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width : 992px) {
+    #afterpaypayovertime-method .actions-toolbar {
+        width: auto;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    #afterpaypayovertime-method .actions-toolbar .primary {
+        width: 100%;
+    }
+}
+.afterpay_checkout_steps {
+    background-size: 12px 12px;
+    vertical-align: middle; 
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.checkout-methods-items button.btn-afterpay-checkout {
+    padding: 13px 15px 10px 10px;
+    width: 100%;
+}
+
+#afterpaypayovertime-method .afterpay-form {
+    margin-top: 10px;
+}
+
+#center_column #afterpaypayovertime-method .cart_navigation input,
+#center_column #afterpaypayovertime-method .cart_navigation a {
+    background-image: none;
+    background: #1979c3 !important;
+    border: 1px solid #1979c3;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    padding: 7px 15px;
+    font-size: 1.75rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 250px;
+    text-align: center;
+}
